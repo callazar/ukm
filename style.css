@@ -1,20 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap");
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins", sans-serif;
 }
 
-/* slider */
-.slider-component {
-  width: 100%;
-  height: 500px;
-}
-
-.carousel-item{
+.carousel-item {
   height: 668px;
   background: linear-gradient(to right, #0082fa, #0098da2b);
 }
@@ -98,10 +93,10 @@ body {
 
 .footer {
   background: linear-gradient(to right, #0098da2b, #0082fa);
-  height: 452px;
-  margin-top: 117px;
-  display: flex;
-  padding-top: 99px;
+  /* height: 452px; */
+  /* margin-top: 117px; */
+  /* display: flex; */
+  /* padding-top: 99px; */
 }
 
 .footer .logo {
@@ -110,12 +105,19 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding-left: 89px;
+  display: flex;
+  padding-left: 30px;
+  /* flex-shrink: 0; */
+}
+
+.footer .logo a {
+  padding-top: 83px;
+  padding-left: 20px;
 }
 
 .footer .footer-link {
-    padding-top: 15px;
-    margin-left: 55px;
+  padding-top: 15px;
+  /* margin-left: 100px; */
 }
 
 .footer .footer-link a {
@@ -132,8 +134,8 @@ body {
 }
 
 .footer .media-link {
-    padding-top: 52px;
-    margin-left: 95px;
+  padding-top: 52px;
+  /* margin- left: 95px; */
 }
 
 .footer .media-link a {
@@ -146,6 +148,154 @@ body {
 }
 
 .footer .media-link li {
-    list-style-type: none;
-    margin-bottom: 14px;
+  list-style-type: none;
+  margin-bottom: 14px;
+}
+
+/* about jumbotron */
+.jumbotron {
+  background: linear-gradient(to right, #0082fa, #0098da2b);
+  height: 859px;
+  flex-shrink: 0;
+}
+
+.jumbotron .outer-text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 180px;
+}
+
+.jumbotron .outer-text .text {
+  width: 750px;
+  height: 383px;
+  flex-shrink: 0;
+  padding-left: 77px;
+  padding-top: 95px;
+}
+
+.jumbotron .outer-text .text .title {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.jumbotron .outer-text .logo img {
+  width: 528px;
+  height: 528px;
+  flex-shrink: 0;
+  margin-left: 30px;
+}
+
+/* card person */
+.person .card-person p {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 109px;
+}
+
+.person .card-person .inner-card {
+  background: linear-gradient(to bottom, #0082fa, #0098da2b);
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  height: 576px;
+  flex-shrink: 0;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.person .card-person .inner-card img {
+  width: 354px;
+  height: 370px;
+  flex-shrink: 0;
+  position: absolute;
+}
+
+.person .card-person .inner-card p {
+  margin-top: 380px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.person .card-person .inner-card button {
+  margin-bottom: 29px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.person .card-person .outer-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+/* mapping */
+.mapping {
+  width: 1440px;
+  height: 814px;
+  flex-shrink: 0;
+  margin-top: 176px;
+}
+
+.mapping .title-map {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 177px;
+}
+
+.mapping .outer-map {
+  display: flex;
+}
+
+.mapping .outer-map .desc-map {
+  width: 563px;
+  height: 229px;
+  flex-shrink: 0;
+  padding-top: 80px;
+}
+
+.mapping .outer-map .map {
+  width: 625px;
+  height: 565px;
+  flex-shrink: 0;
+  margin-top: -45px;
+  margin-left: 280px;
+}
+
+.mapping .outer-map .desc-map{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.mapping .outer-map .logo-media {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 230px;
+}
+
+.mapping .outer-map .logo-media img {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  margin-top: 50px;
+  margin-left: 10px;
 }

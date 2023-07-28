@@ -4,18 +4,20 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css" />
 
     <title>UKMFT</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="mx-5 navbar-brand" href="#">
                 <img src="./photo/itc 2.png" alt="Logo" width="65" height="65" class="d-inline-block align-text-center">
@@ -51,27 +53,61 @@
             </div>
         </div>
         </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="mx-5 navbar-brand" href="#">
+                <img src="./photo/itc 2.png" alt="Logo" width="65" height="65" class="d-inline-block align-text-center">
+                UKMFT-ITC
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/view/event.html">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/view/info.html">Informasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/view/perstasi.html">Prestasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">E-Techno</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/view/about.html">Tentang Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- slider -->
-    
+
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
         </div>
-      </div>
+    </div>
 
     <section class="container event">
         <h1>Event Terbaru</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
             <div class="col">
                 <div class="card h-100">
-                    <img src="./photo/Rectangle 5.png" class="card-img-top" style="height: 411px;" alt="Rectangle5">
+                    <img src="./photo/Rectangle 5.png" class="card-img-top" alt="Rectangle5">
                     <div class="card-body">
                         <h2 class="card-title">ITC Produktif</h5>
                             <p class="card-text">ITC Produktif merupakan program yang diinisiasi oleh UKMFT-ITC dengan
@@ -174,7 +210,7 @@
         </div>
     </section>
 
-    <section class="footer">
+    <!-- <section class="footer">
         <div class="logo">
             <img src="./photo/itc 3.png" width="248" height="252" alt="">
             UKMFT-ITC
@@ -225,7 +261,66 @@
                 </ul>
             </nav>
         </div>
-    </section>
+    </section> -->
+
+    <div class="footer">
+        <div class="row">
+            <div class="col-5">
+                <div class="logo">
+                    <img class="poto" src="./photo/itc 3.png" width="248" height="252" alt="">
+                    <a>UKMFT-ITC</a>
+                </div>
+            </div>
+            <div class="col">
+                <nav class="footer-link">
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="/view/event.html">Event</a>
+                        </li>
+                        <li>
+                            <a href="/view/info.html">Informasi</a>
+                        </li>
+                        <li>
+                            <a href="view/perstasi.html">Prestasi</a>
+                        </li>
+                        <li>
+                            <a href="">E-Techno</a>
+                        </li>
+                        <li>
+                            <a href="/view/about.html">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col">
+                <nav class="media-link">
+                    <ul>
+                        <li>
+                            <img class="media-img" src="./photo/mdi_web.svg" width="36" alt="web">
+                            <a href="">
+                                http://ukmft-itc.trunojoyo.ac.id/
+                            </a>
+                        </li>
+                        <li>
+                            <img class="media-img" src="./photo/mdi_instagram.svg" width="36" alt="ig">
+                            <a href="">
+                                @ukmft-itc
+                            </a>
+                        </li>
+                        <li>
+                            <img class="media-img" src="./photo/mdi_youtube.svg" width="36" alt="ig">
+                            <a href="">
+                                UKMFT ITC TRUNOJOYO
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
