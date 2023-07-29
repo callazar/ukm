@@ -279,7 +279,7 @@ body {
   margin-left: 280px;
 }
 
-.mapping .outer-map .desc-map{
+.mapping .outer-map .desc-map {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -298,4 +298,33 @@ body {
   flex-shrink: 0;
   margin-top: 50px;
   margin-left: 10px;
+}
+
+/* more card */
+
+.card {
+  background: linear-gradient(to bottom, #0082fa, #0098da2b);
+}
+
+.card-more {
+  margin-bottom: 73px;
+}
+
+.card-more .title-more {
+  margin-top: 104px;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 65px;
+}
+
+.card-more .card-text {
+  color: #777;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
